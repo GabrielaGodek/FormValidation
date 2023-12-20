@@ -1,0 +1,27 @@
+{
+  "name": "formvalidation",
+  "version": "1.0.0",
+  "description": "form validation with typescript",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest",
+    "tsc": "tsc -w"
+  },
+  "keywords": [
+    "form",
+    "validation",
+    "typescript"
+  ],
+  "author": "Gabriela Godek",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0",
+    "tailwind": "^4.0.0",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.0"
+  }
+}

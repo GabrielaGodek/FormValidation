@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f8f5f2;
+  font-family: "Montserrat", sans-serif;
+  color: #232323;
+} */
+
+/* main,
+section {
+  width: 100%;
+  height: 100%;
+} */
+
+.error-message {
+  color: #f45d48;
+}
+
+/* section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10vw;
+} */
+/* section h1 {
+  font-size: 7.25vw;
+  line-height: 8.5vw;
+  text-align: center;
+  padding: 20px 30px;
+} */
+/* section form {
+  background-color: #fff;
+  -webkit-box-shadow: 6px 6px 32px -3px rgb(194, 194, 194);
+  -moz-box-shadow: 6px 6px 32px -3px rgb(194, 194, 194);
+  box-shadow: 6px 6px 32px -3px rgb(194, 194, 194);
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  width: 80vw;
+  margin: 0 auto;
+  border-radius: 8px;
+  padding: 25px 20px 55px;
+  gap: 2.5vw;
+} */
+/* section form label {
+  font-size: 4.75vw;
+  line-height: 4.75vw;
+} */
+/* section form input {
+  padding: 5px 10px 5px 0;
+  appearance: none;
+  border: 2px solid #fff;
+  border-bottom: 2px solid #078080;
+} */
+/* section form input:focus {
+  border-bottom: 2px solid #fff;
+  outline: 2px solid #078080;
+  border-radius: 4px;
+} */
+/* section form input::placeholder {
+  font-family: "Montserrat", sans-serif;
+  color: #b9b9b9;
+} */
+/* section form button {
+  appearance: none;
+  border: 2px solid #078080;
+  background-color: #078080;
+  color: #fff;
+  padding: 10px 30px;
+  max-width: 200px;
+  max-height: 50px;
+  margin: 0 auto;
+  border-radius: 8px;
+  text-transform: uppercase;
+  margin-top: 7.5vw;
+  cursor: pointer;
+} */
+/* section form small {
+  min-height: 50px;
+} */
+section .success {
+  width: 80vw;
+  margin: 0 auto;
+  text-align: center;
+}
+section .success h2 {
+  color: #078080;
+  margin: 3.75vw 0 10vw;
+}
+section .success img {
+  z-index: -1;
+}
+
+@media (min-width: 1080px) {
+  /* section {
+    gap: 3.90625vw;
+  } */
+  /* section h1 {
+    font-size: 4.21875vw;
+    line-height: 2.65625vw;
+  } */
+  /* section form {
+    gap: 1.5625vw;
+  } */
+  /* section form label {
+    font-size: 2.34375vw;
+    line-height: 2.65625vw;
+  } */
+  /* section form input {
+    font-size: 1.5625vw;
+    line-height: 2.65625vw;
+  }
+  section form input::placeholder {
+    font-size: 1.5625vw;
+    line-height: 2.65625vw;
+  } */
+  section form button {
+    max-width: none;
+    max-height: none;
+    font-size: 2.34375vw;
+    line-height: 2.34375vw;
+    padding: 15px 30px;
+  }
+}
+@media (min-width: 1280px) {
+  section {
+    gap: 20px;
+  }
+  section h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  section form {
+    gap: 5px;
+  }
+  section form label {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  section form input {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  section form input::placeholder {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  section form button {
+    margin-top: 0;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 10px 20px;
+    transition: all .3s ease;
+  }
+  section form button:hover {
+    background-color: #f8f5f2;
+    color: #078080;
+    border: 2px solid #078080;
+    -webkit-box-shadow: 6px 6px 32px -3px rgb(194, 194, 194);
+    -moz-box-shadow: 6px 6px 32px -3px rgb(194, 194, 194);
+    box-shadow: 6px 6px 32px -3px rgb(194, 194, 194);
+  }
+  section .success h2 {
+    margin-bottom: 25px;
+  }
+}
